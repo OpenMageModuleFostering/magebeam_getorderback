@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magebeam_GetOrderBack</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>&lt;strong&gt;Magebeam Get Order Back&lt;/strong&gt; gives the store owner ability to uncancel any accidentally canceled order.</summary>
+    <description>&lt;strong&gt;Magebeam Get Order Back&lt;/strong&gt; is small but useful utility that can uncancel any accidentally canceled order in back office from order edit page.</description>
+    <notes>Public release</notes>
+    <authors><author><name>Magebeam</name><user>magebeam</user><email>team@magebeam.com</email></author></authors>
+    <date>2013-02-21</date>
+    <time>07:51:02</time>
+    <contents><target name="magecommunity"><dir name="Magebeam"><dir name="GetOrderBack"><dir name="Helper"><file name="Data.php" hash="f2fc83ac05f6af413a7ca462e17a5988"/></dir><dir name="Model"><file name="Observer.php" hash="f9865559cc67b4f33e1002d0e54dbef1"/><file name="UnCanceler.php" hash="8864631d81555b76be7ce9f590f06f8a"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Sales"><file name="OrderController.php" hash="6cb7011674a568a5042facbea2b0edd4"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="e18b4918b3be7a25634e0469bf93a309"/><file name="config.xml" hash="8f6a55bafab7f2c38ab33c2e504c6a7c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magebeam_GetOrderBack.xml" hash="c3fb3b3c479f7336dc0b836ed197473a"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Magebeam_GetOrderBack.csv" hash="8799633a014c94466f1331b8f7628fd6"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
