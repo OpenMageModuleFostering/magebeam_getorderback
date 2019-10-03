@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Magebeam_GetOrderBack",
+    "name": "OpenMageModuleFostering\/Magebeam_GetOrderBack",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "<strong>Magebeam Get Order Back</strong> gives the store owner ability to uncancel any accidentally canceled order.",
+    "description": "<strong>Magebeam Get Order Back<\/strong> gives the store owner ability to uncancel any accidentally canceled order.",
     "authors": [
-    {
-        "name": "Magebeam",
-        "email": "team@magebeam.com"
-    }
-],
+        {
+            "name": "Magebeam",
+            "email": "team@magebeam.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
